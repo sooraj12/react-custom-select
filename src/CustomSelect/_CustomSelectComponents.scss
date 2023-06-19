@@ -1,0 +1,146 @@
+.custom-groupHeading-checkbox {
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.15rem 0.15rem 0.1rem 0.15rem;
+  label.form-check-label {
+    font-weight: bold;
+    color: #212b36;
+    cursor: pointer;
+  }
+}
+
+.custom-checkbox-option {
+  cursor: pointer;
+  margin-left: 2.25rem;
+
+  label.form-check-label {
+    cursor: pointer;
+    color: #212b36;
+  }
+}
+
+.grouped-label-container {
+  background-color: #fff;
+  border-radius: 2px;
+  display: flex;
+  margin: 5px 5px 3px 3px;
+  min-width: 0;
+  box-sizing: border-box;
+  position: relative;
+  .grouped-label {
+    border-radius: 4px;
+    color: #000;
+    font-size: 85%;
+    padding: 5px 16px;
+    padding-left: 16px;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    border: 1px solid #c4cdd5;
+  }
+}
+
+.singleValue-profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .profile-image {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+    img {
+      max-height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      height: 100%;
+    }
+  }
+}
+
+.user-info-list-container {
+  .list-heading {
+    padding: 6px;
+    cursor: default;
+  }
+  .user-info-list {
+    display: flex;
+    align-items: center;
+
+    margin: 0px 10px;
+    cursor: pointer;
+    padding: 12px 18px;
+    padding-left: 2em;
+
+    &:hover {
+      background-color: #8289c4;
+    }
+
+    & > div {
+      &:nth-child(1) {
+        display: flex;
+        .profile-image {
+          width: 40px;
+          height: 40px;
+          margin-right: 8px;
+          img {
+            width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+            height: 100%;
+          }
+        }
+
+        .user-info {
+          display: flex;
+          flex-direction: column;
+          .user-name {
+            font-weight: bold;
+          }
+
+          .user-email {
+            font-style: italic;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        margin-left: auto;
+      }
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.user-info-empty {
+  padding: 10px;
+  text-align: center;
+  p {
+    margin: 0px;
+    color: #454f5b;
+  }
+}
+
+.custom-select-search {
+  display: inline-block;
+  margin: 0;
+  min-height: 26px;
+  padding: 2px;
+  white-space: nowrap;
+  width: 100%;
+  input {
+    width: 100%;
+    height: auto;
+    min-height: 24px;
+    padding: 0 5px;
+    margin: 0;
+    outline: 0;
+    font-family: sans-serif;
+    border: 1px solid #919eab;
+    border-radius: 5px;
+    box-shadow: none;
+  }
+}
